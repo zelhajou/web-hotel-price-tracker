@@ -1,0 +1,40 @@
+[
+  {
+    "name": "Ighiz Inn Resort",
+    "detail_url": "https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehFkDwprPY&pm=daybase#overview",
+    "location": "Nearby - Forkan Mosque, Garden Boutalamine",
+    "price": "$40",
+    "rating": "8.0",
+    "reviews": "Very good (379)",
+    "rooms": [
+      {
+        "type": "Free cancellation\nFree breakfast",
+        "price": "$40",
+        "provider": "Booking.com",
+        "cancellation": "Free cancellation",
+        "inclusions": []
+      },
+      {
+        "type": "Free cancellation\nFree breakfast",
+        "price": "$40",
+        "provider": "KAYAK",
+        "cancellation": "Free cancellation",
+        "inclusions": []
+      },
+      {
+        "type": "Free cancellation\nFree breakfast",
+        "price": "$40",
+        "provider": "Priceline",
+        "cancellation": "Free cancellation",
+        "inclusions": []
+      }
+    ],
+    "amenities": {
+      "general": [],
+      "room": [],
+      "services": []
+    },
+    "description": "Hotel in Errachidia with free breakfast and a seasonal outdoor pool This smoke-free hotel features a restaurant, a coffee shop/cafe, and a seasonal outdoor pool. Free buffet breakfast, free WiFi in public areas, and free self parking are also provide…Expedia Group",
+    "full_address": "Zone touristique, Route nationale N° 10, Errachidia 53000"
+  }
+]

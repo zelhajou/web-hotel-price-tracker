@@ -1,0 +1,226 @@
+2024-12-29 21:13:49,536 [INFO] Initializing scraper for Errachidia from 2025-01-10 00:00:00 to 2025-01-14 00:00:00
+2024-12-29 21:13:49,540 [INFO] Setting up Chrome WebDriver...
+2024-12-29 21:13:51,538 [INFO] WebDriver initialized successfully
+2024-12-29 21:13:51,549 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/errachidia/2025-01-10/2025-01-14/2adults
+2024-12-29 21:14:12,566 [INFO] Page loaded successfully
+2024-12-29 21:14:12,738 [INFO] Accessed URL: https://www.kayak.com/hotels/errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-29 21:14:17,760 [INFO] Found 27 hotels
+2024-12-29 21:14:17,761 [INFO] Processing first 5 hotels
+2024-12-29 21:14:17,763 [INFO] Processing hotel 1/5
+2024-12-29 21:14:27,812 [WARNING] Could not find hotel name/URL
+2024-12-29 21:14:29,067 [INFO] Processing hotel 2/5
+2024-12-29 21:14:39,085 [WARNING] Could not find hotel name/URL
+2024-12-29 21:14:40,205 [INFO] Processing hotel 3/5
+2024-12-29 21:14:50,228 [WARNING] Could not find hotel name/URL
+2024-12-29 21:14:51,561 [INFO] Processing hotel 4/5
+2024-12-29 21:15:01,554 [WARNING] Could not find hotel name/URL
+2024-12-29 21:15:02,576 [INFO] Processing hotel 5/5
+2024-12-29 21:15:12,597 [WARNING] Could not find hotel name/URL
+2024-12-29 21:15:13,817 [INFO] Scraping completed. Processed 0 hotels successfully
+2024-12-29 21:15:13,945 [INFO] WebDriver closed successfully
+2024-12-29 21:23:40,773 [INFO] WebDriver initialized successfully
+2024-12-29 21:23:40,791 [INFO] Loading URL: https://www.kayak.com/hotels/errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-29 21:24:07,324 [INFO] Page loaded successfully
+2024-12-29 21:24:12,391 [INFO] Found 28 hotels
+2024-12-29 21:24:12,398 [INFO] Processing first 5 hotels
+2024-12-29 21:24:12,404 [INFO] Processing hotel 1/5
+2024-12-29 21:24:12,728 [INFO] Successfully extracted info for: Ighiz Inn Resort
+2024-12-29 21:24:13,834 [INFO] Processing hotel 2/5
+2024-12-29 21:24:24,009 [INFO] Successfully extracted info for: Kasbah Hotel Camping Jurassique
+2024-12-29 21:24:25,314 [INFO] Processing hotel 3/5
+2024-12-29 21:24:35,541 [INFO] Successfully extracted info for: HN Home House with air conditioning garage included Free
+2024-12-29 21:24:36,546 [INFO] Processing hotel 4/5
+2024-12-29 21:24:46,881 [INFO] Successfully extracted info for: Maison Vallée Du Ziz
+2024-12-29 21:24:48,650 [INFO] Processing hotel 5/5
+2024-12-29 21:25:08,920 [INFO] Successfully extracted info for: Résidence Sehrawilocation
+2024-12-29 21:25:10,535 [INFO] Successfully processed 5 hotels
+2024-12-29 21:25:10,586 [INFO] Data saved successfully to /app/data/hotel_data.json
+2024-12-29 21:25:11,539 [INFO] Driver closed successfully
+2024-12-29 21:38:44,661 [INFO] WebDriver initialized successfully
+2024-12-29 21:38:44,677 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-29 21:39:10,062 [INFO] Page loaded successfully
+2024-12-29 21:39:10,344 [INFO] Found 28 hotels
+2024-12-29 21:39:10,347 [INFO] Processing first 5 hotels
+2024-12-29 21:39:10,353 [INFO] Processing hotel 1/5
+2024-12-29 21:39:10,592 [INFO] Getting details for: Ighiz Inn Resort
+2024-12-29 21:39:10,595 [INFO] Fetching details from: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehGELVAmpf&pm=daybase#overview
+2024-12-29 21:39:10,598 [INFO] Loading URL (attempt 1): https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehGELVAmpf&pm=daybase#overview
+2024-12-29 21:39:27,592 [INFO] Page loaded successfully
+2024-12-29 21:39:50,715 [INFO] Successfully extracted all info for: Ighiz Inn Resort
+2024-12-29 21:39:53,336 [INFO] Processing hotel 2/5
+2024-12-29 21:39:53,388 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5574d476adbe <unknown>
+#1 0x5574d428e06b <unknown>
+#2 0x5574d429e124 <unknown>
+#3 0x5574d429d0ac <unknown>
+#4 0x5574d429e2b9 <unknown>
+#5 0x5574d4294027 <unknown>
+#6 0x5574d429316e <unknown>
+#7 0x5574d42959db <unknown>
+#8 0x5574d4295aa1 <unknown>
+#9 0x5574d42d4ba8 <unknown>
+#10 0x5574d42d5241 <unknown>
+#11 0x5574d42cb836 <unknown>
+#12 0x5574d42fcb0d <unknown>
+#13 0x5574d42cb74e <unknown>
+#14 0x5574d42fcc6e <unknown>
+#15 0x5574d431963e <unknown>
+#16 0x5574d42fc863 <unknown>
+#17 0x5574d42c9517 <unknown>
+#18 0x5574d42ca2b2 <unknown>
+#19 0x5574d473e5ba <unknown>
+#20 0x5574d474196e <unknown>
+#21 0x5574d47413e8 <unknown>
+#22 0x5574d4741df5 <unknown>
+#23 0x5574d472ef92 <unknown>
+#24 0x5574d4742161 <unknown>
+#25 0x5574d4717e39 <unknown>
+#26 0x5574d475adb5 <unknown>
+#27 0x5574d475af9b <unknown>
+#28 0x5574d4769f15 <unknown>
+#29 0x7f18247931c4 <unknown>
+
+2024-12-29 21:39:53,395 [ERROR] Error processing hotel 2: 'NoneType' object has no attribute 'update'
+2024-12-29 21:39:53,404 [INFO] Processing hotel 3/5
+2024-12-29 21:39:53,440 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5574d476adbe <unknown>
+#1 0x5574d428e06b <unknown>
+#2 0x5574d429e124 <unknown>
+#3 0x5574d429d0ac <unknown>
+#4 0x5574d429e2b9 <unknown>
+#5 0x5574d4294027 <unknown>
+#6 0x5574d429316e <unknown>
+#7 0x5574d42959db <unknown>
+#8 0x5574d4295aa1 <unknown>
+#9 0x5574d42d4ba8 <unknown>
+#10 0x5574d42d5241 <unknown>
+#11 0x5574d42cb836 <unknown>
+#12 0x5574d42fcb0d <unknown>
+#13 0x5574d42cb74e <unknown>
+#14 0x5574d42fcc6e <unknown>
+#15 0x5574d431963e <unknown>
+#16 0x5574d42fc863 <unknown>
+#17 0x5574d42c9517 <unknown>
+#18 0x5574d42ca2b2 <unknown>
+#19 0x5574d473e5ba <unknown>
+#20 0x5574d474196e <unknown>
+#21 0x5574d47413e8 <unknown>
+#22 0x5574d4741df5 <unknown>
+#23 0x5574d472ef92 <unknown>
+#24 0x5574d4742161 <unknown>
+#25 0x5574d4717e39 <unknown>
+#26 0x5574d475adb5 <unknown>
+#27 0x5574d475af9b <unknown>
+#28 0x5574d4769f15 <unknown>
+#29 0x7f18247931c4 <unknown>
+
+2024-12-29 21:39:53,445 [ERROR] Error processing hotel 3: 'NoneType' object has no attribute 'update'
+2024-12-29 21:39:53,447 [INFO] Processing hotel 4/5
+2024-12-29 21:39:53,476 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5574d476adbe <unknown>
+#1 0x5574d428e06b <unknown>
+#2 0x5574d429e124 <unknown>
+#3 0x5574d429d0ac <unknown>
+#4 0x5574d429e2b9 <unknown>
+#5 0x5574d4294027 <unknown>
+#6 0x5574d429316e <unknown>
+#7 0x5574d42959db <unknown>
+#8 0x5574d4295aa1 <unknown>
+#9 0x5574d42d4ba8 <unknown>
+#10 0x5574d42d5241 <unknown>
+#11 0x5574d42cb836 <unknown>
+#12 0x5574d42fcb0d <unknown>
+#13 0x5574d42cb74e <unknown>
+#14 0x5574d42fcc6e <unknown>
+#15 0x5574d431963e <unknown>
+#16 0x5574d42fc863 <unknown>
+#17 0x5574d42c9517 <unknown>
+#18 0x5574d42ca2b2 <unknown>
+#19 0x5574d473e5ba <unknown>
+#20 0x5574d474196e <unknown>
+#21 0x5574d47413e8 <unknown>
+#22 0x5574d4741df5 <unknown>
+#23 0x5574d472ef92 <unknown>
+#24 0x5574d4742161 <unknown>
+#25 0x5574d4717e39 <unknown>
+#26 0x5574d475adb5 <unknown>
+#27 0x5574d475af9b <unknown>
+#28 0x5574d4769f15 <unknown>
+#29 0x7f18247931c4 <unknown>
+
+2024-12-29 21:39:53,484 [ERROR] Error processing hotel 4: 'NoneType' object has no attribute 'update'
+2024-12-29 21:39:53,488 [INFO] Processing hotel 5/5
+2024-12-29 21:39:53,516 [ERROR] Error extracting hotel info: Message: stale element reference: stale element not found
+  (Session info: chrome=131.0.6778.204); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5574d476adbe <unknown>
+#1 0x5574d428e06b <unknown>
+#2 0x5574d429e124 <unknown>
+#3 0x5574d429d0ac <unknown>
+#4 0x5574d429e2b9 <unknown>
+#5 0x5574d4294027 <unknown>
+#6 0x5574d429316e <unknown>
+#7 0x5574d42959db <unknown>
+#8 0x5574d4295aa1 <unknown>
+#9 0x5574d42d4ba8 <unknown>
+#10 0x5574d42d5241 <unknown>
+#11 0x5574d42cb836 <unknown>
+#12 0x5574d42fcb0d <unknown>
+#13 0x5574d42cb74e <unknown>
+#14 0x5574d42fcc6e <unknown>
+#15 0x5574d431963e <unknown>
+#16 0x5574d42fc863 <unknown>
+#17 0x5574d42c9517 <unknown>
+#18 0x5574d42ca2b2 <unknown>
+#19 0x5574d473e5ba <unknown>
+#20 0x5574d474196e <unknown>
+#21 0x5574d47413e8 <unknown>
+#22 0x5574d4741df5 <unknown>
+#23 0x5574d472ef92 <unknown>
+#24 0x5574d4742161 <unknown>
+#25 0x5574d4717e39 <unknown>
+#26 0x5574d475adb5 <unknown>
+#27 0x5574d475af9b <unknown>
+#28 0x5574d4769f15 <unknown>
+#29 0x7f18247931c4 <unknown>
+
+2024-12-29 21:39:53,531 [ERROR] Error processing hotel 5: 'NoneType' object has no attribute 'update'
+2024-12-29 21:39:53,537 [INFO] Successfully processed 1 hotels
+2024-12-29 21:39:53,553 [INFO] Data saved successfully to /app/data/hotel_data.json
+2024-12-29 21:39:54,013 [INFO] WebDriver closed successfully
+2024-12-29 21:51:30,049 [INFO] WebDriver initialized successfully
+2024-12-29 21:51:30,065 [INFO] Loading URL: https://www.kayak.com/hotels/errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-29 21:52:05,217 [INFO] Page loaded successfully
+2024-12-29 21:52:05,268 [INFO] Found 28 hotels
+2024-12-29 21:52:05,270 [INFO] Processing first 5 hotels
+2024-12-29 21:52:05,273 [INFO] Processing hotel 1/5
+2024-12-29 21:52:05,474 [INFO] Fetching details from: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehFkEezVzv&pm=daybase#overview
+2024-12-29 21:52:05,476 [INFO] Loading URL: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehFkEezVzv&pm=daybase#overview
+2024-12-29 21:52:08,564 [INFO] WebDriver closed successfully
+2024-12-29 21:52:13,543 [INFO] WebDriver initialized successfully
+2024-12-29 21:52:13,546 [INFO] Loading URL: https://www.kayak.com/hotels/errachidia-c52508/2025-01-10/2025-01-14/2adults?sort=rank_a
+2024-12-29 21:52:32,979 [INFO] Page loaded successfully
+2024-12-29 21:52:33,087 [INFO] Found 28 hotels
+2024-12-29 21:52:33,089 [INFO] Processing first 5 hotels
+2024-12-29 21:52:33,095 [INFO] Processing hotel 1/5
+2024-12-29 21:52:33,341 [INFO] Fetching details from: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehFkDwprPY&pm=daybase#overview
+2024-12-29 21:52:33,346 [INFO] Loading URL: https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=ehFkDwprPY&pm=daybase#overview
+2024-12-29 21:52:47,964 [INFO] Page loaded successfully
+2024-12-29 21:52:58,581 [INFO] Successfully processed: Ighiz Inn Resort
+2024-12-29 21:52:59,701 [INFO] Processing hotel 2/5
+2024-12-29 21:53:01,768 [WARNING] Could not find hotel name/URL
+2024-12-29 21:53:03,595 [INFO] Processing hotel 3/5
+2024-12-29 21:53:05,776 [WARNING] Could not find hotel name/URL
+2024-12-29 21:53:07,408 [INFO] Processing hotel 4/5
+2024-12-29 21:53:09,464 [WARNING] Could not find hotel name/URL
+2024-12-29 21:53:11,105 [INFO] Processing hotel 5/5
+2024-12-29 21:53:13,160 [WARNING] Could not find hotel name/URL
+2024-12-29 21:53:14,426 [INFO] Successfully processed 1 hotels
+2024-12-29 21:53:14,445 [INFO] Data saved successfully to /app/data/hotel_data.json
+2024-12-29 21:53:14,668 [INFO] WebDriver closed successfully
