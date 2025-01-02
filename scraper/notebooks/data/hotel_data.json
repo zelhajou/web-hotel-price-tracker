@@ -1,34 +1,16 @@
 {
-  "city": "Errachidia",
+  "city": "New York, United States",
   "hotels": [
     {
-      "hotel_name": "Ighiz Inn Resort",
-      "detail_url": "https://www.kayak.com/hotels/Ighiz-Inn-Resort,Errachidia-p170319-h9063437-details/2025-01-10/2025-01-14/2adults?psid=elGEO5Ks7N&pm=daybase#overview",
-      "location": "Nearby - Forkan Mosque, Garden Boutalamine",
+      "hotel_name": "Vacayo Affordable East Side Apartments",
+      "detail_url": "https://www.kayak.com/hotels/Vacayo-Affordable-East-Side-Apartments,New-York-p59560-h2503300-details/2025-01-10/2025-01-14/2adults?psid=eTEESYmnWR&pm=daybase#overview",
+      "location": "0.0 mi from New York, New York, United States",
       "review_scores": {
-        "rating": 8.0,
-        "count": 379
+        "rating": null,
+        "count": null
       },
-      "price": "$40",
-      "images": [],
-      "rooms": [
-        {
-          "room_type": "Double or Twin Room with Garden View",
-          "price": 40.0,
-          "bed_configuration": "2 twin beds",
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        },
-        {
-          "room_type": "Two-Bedroom Bungalow",
-          "price": 60.0,
-          "bed_configuration": null,
-          "cancellation_policy": "Free cancellation",
-          "board_type": "Free breakfast",
-          "special_conditions": []
-        }
-      ]
+      "price": null,
+      "images": []
     }
   ],
   "pagination": {
@@ -36,8 +18,8 @@
     "total_pages": 1
   },
   "metadata": {
-    "scraping_date": "2025-01-01",
-    "scraping_time": "23:45",
+    "scraping_date": "2025-01-02",
+    "scraping_time": "15:01",
     "source_url": "https://www.kayak.com/hotels"
   }
 }

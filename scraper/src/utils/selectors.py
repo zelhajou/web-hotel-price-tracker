@@ -43,12 +43,17 @@ ROOM_VIEW = 'span.c_Hjx-amenity:contains("view")'
 BED_CONFIG = 'div.c_Hjx-detail-amenity'
 BED_TYPE = 'span.c_Hjx-amenity'
 
-# Amenities
-AMENITIES_SECTION = 'section.Vdvb'
-FEATURED_AMENITIES = 'ul.kml-row'
-AMENITY_CATEGORY = 'p.BxLB-category-name'
-AMENITY_ITEM = 'span.BxLB-amenity-name'
-AMENITY_CONTAINER = 'div.DbSA-categories-container'
+# Updated Amenities Selectors
+AMENITIES_SECTION = '.tYfO[data-section-name="amenities"]'  # Main amenities container
+AMENITIES_TOP_SECTION = '.tYfO-top-amenities'  # Top visible amenities section
+AMENITY_ITEM = '.tYfO-amenity-name'  # Individual amenity in top section
+AMENITY_EXPANDED_ITEM = '.BxLB-amenity-name'  # Individual amenity in expanded view
+SHOW_ALL_AMENITIES_BTN = '.tYfO-toggle-all-button button'  # Show all amenities button
+AMENITY_MODAL = '.DbSA-categories-container'  # Container for all amenities when expanded
+
+# Amenity Categories in Modal
+AMENITY_CATEGORY_ITEM = '.BxLB-category-name'  # Category header in expanded view
+AMENITY_LIST = 'ul.kml-row'  # List of amenities
 
 # Policies and Conditions
 CANCELLATION_POLICY = 'div.BZag-freebie:contains("cancellation")'
@@ -65,15 +70,15 @@ CURRENT_PAGE = 'button#active'
 
 # Property Features (Key Amenities)
 PROPERTY_FEATURES = {
-    'wifi': 'span.BxLB-amenity-name:contains("Wi-Fi")',
-    'parking': 'span.BxLB-amenity-name:contains("Parking")',
-    'breakfast': 'span.BxLB-amenity-name:contains("Breakfast")',
-    'pool': 'span.BxLB-amenity-name:contains("Pool")',
-    'spa': 'span.BxLB-amenity-name:contains("Spa")',
-    'fitness': 'span.BxLB-amenity-name:contains("Fitness")',
-    'restaurant': 'span.BxLB-amenity-name:contains("Restaurant")',
-    'bar': 'span.BxLB-amenity-name:contains("Bar")',
-    'business': 'span.BxLB-amenity-name:contains("Business")',
+    'wifi': 'span.tYfO-amenity-name:contains("Wi-Fi")',  # Updated selector
+    'parking': 'span.tYfO-amenity-name:contains("Parking")',
+    'breakfast': 'span.tYfO-amenity-name:contains("Breakfast")',
+    'pool': 'span.tYfO-amenity-name:contains("Pool")',
+    'spa': 'span.tYfO-amenity-name:contains("Spa")',
+    'fitness': 'span.tYfO-amenity-name:contains("Fitness")',
+    'restaurant': 'span.tYfO-amenity-name:contains("Restaurant")',
+    'bar': 'span.tYfO-amenity-name:contains("Bar")',
+    'business': 'span.tYfO-amenity-name:contains("Business")',
 }
 
 # Amenity Categories
